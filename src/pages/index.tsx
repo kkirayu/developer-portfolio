@@ -62,7 +62,7 @@ const projects = [
     title: "This website",
     description: "My personal website",
     image: "/assets/portfolio.webm",
-    href: "https://github.com/wendoj/portfolio",
+    href: "https://github.com/",
   },
 ];
 
@@ -80,9 +80,9 @@ const services = [
     icon: Frame,
   },
   {
-    service: "SEO Optimization",
+    service: "Quality Assurance Enginner",
     description:
-      "Enhancing your website's visibility in search engines for increased organic traffic.",
+      "Ensure the quality and reliability of your application with automated testing scripts. Detect bugs earlier and more consistently for a solid product.",
     icon: SearchCheck,
   },
   {
@@ -190,8 +190,8 @@ export default function Home() {
               data-scroll-speed=".09"
               className="flex flex-row items-center space-x-1.5"
             >
-              <span className={styles.pill}>next.js</span>
-              <span className={styles.pill}>tailwindcss</span>
+              <span className={styles.pill}>React</span>
+              <span className={styles.pill}>Node</span>
               <span className={styles.pill}>typescript</span>
             </div>
             <div>
@@ -206,7 +206,7 @@ export default function Home() {
                   <br />
                 </span>
                 <span className="clash-grotesk text-gradient text-6xl 2xl:text-8xl">
-                  WendoJ.
+                  Muhammad Danil.
                 </span>
               </h1>
               <p
@@ -225,7 +225,7 @@ export default function Home() {
               data-scroll-speed=".06"
               className="flex flex-row items-center space-x-1.5 pt-6"
             >
-              <Link href="mailto:wendoj@proton.me" passHref>
+              <Link href="mailto:mdanil180215@gmail.com" passHref>
                 <Button>
                   Get in touch <ChevronRight className="ml-1 h-4 w-4" />
                 </Button>
@@ -275,13 +275,15 @@ export default function Home() {
                 target="_blank"
                 className="underline"
               >
-                TypeScript, Tailwind, and Next.js
+                TypeScript, NodeJS, Laravel, React, and Quality Assurance
               </Link>{" "}
-              since 2021. My experience spans from startups to mid-sized
-              companies, where I&apos;ve been instrumental in the entire product
-              design process; from ideation and wireframing, through
-              prototyping, to the delivery of the final product, all while
-              efficiently collaborating with cross-functional teams.
+              An experienced Software Engineer with a deep understanding of the
+              entire product lifecycle, from ideation and full-stack development
+              to final quality assurance. Since 2022, he has impressively
+              demonstrated his ability to seamlessly connect technical, design,
+              and product teams, leading to the creation of exceptional digital
+              solutbions that are not only highly functional but also of the
+              highest quality, perfectly aligned with the business vision.
             </h2>
             <div className="grid grid-cols-2 gap-8 xl:grid-cols-3">
               {aboutStats.map((stat) => (
@@ -446,7 +448,7 @@ export default function Home() {
               I&apos;m currently available for freelance work and open to
               discussing new projects.
             </p>
-            <Link href="mailto:wendoj@proton.me" passHref>
+            <Link href="mailto:mdanil180215@gmail.com" passHref>
               <Button className="mt-6">Get in touch</Button>
             </Link>
           </div>
